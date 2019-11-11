@@ -1,0 +1,38 @@
+{
+  "name": "vuet-cli",
+  "version": "0.0.1",
+  "description": "Vuet CLI is the Standard Tooling for Vue.js Development",
+  "bin": {
+    "vut": "./cli/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afuryboy/vuet-cli.git"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "cli"
+  ],
+  "author": "qiankun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afuryboy/vuet-cli/issues"
+  },
+  "homepage": "https://github.com/afuryboy/vuet-cli#readme",
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "ejs": "^2.7.1",
+    "execa": "^3.2.0",
+    "fs-extra": "^8.1.0",
+    "globby": "^10.0.1",
+    "inquirer": "^7.0.0",
+    "minimist": "^1.2.0",
+    "ora": "^4.0.2",
+    "validate-npm-package-name": "^3.0.0"
+  }
+}
