@@ -1,6 +1,6 @@
 {
   "name": "vuet-cli",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Vuet CLI is the Standard Tooling for Vue.js Development",
   "bin": {
     "vut": "./cli/index.js"
@@ -23,7 +23,7 @@
     "url": "https://github.com/afuryboy/vuet-cli/issues"
   },
   "homepage": "https://github.com/afuryboy/vuet-cli#readme",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "ejs": "^2.7.1",
