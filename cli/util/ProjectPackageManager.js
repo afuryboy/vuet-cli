@@ -71,7 +71,7 @@ class PackageManager {
   async getLatestVersion() {
     const args = await this.addRegistryToArgs(['info', 'vuet-cli', '', '--json'])
     const { stdout } = await execa(this.bin, args)
-    const version = JSON.parse(stdout).data.version
+    const version = JSON.parse(stdout).version || JSON.parse(stdout).data.version
     return version
   }
 }
